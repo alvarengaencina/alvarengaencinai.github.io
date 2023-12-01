@@ -1,0 +1,63 @@
+/* Estilo del cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo del encabezado principal */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilo del input de adivinanza */
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo del botón de adivinanza */
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0CBABA;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Efecto de escala en el botón cuando está activo */
+button:active {
+  transform: scale(0.95);
+}
+
+/* Estilo de las letras en el juego */
+.letter {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Estilo de las filas en el juego */
+.row {
+  margin-bottom: 10px;
+}
+
+/* Estilo del área de entrada */
+.input-area {
+  margin: 30px;
+}
+
+/* Estilo del grid */
+#grid {
+  text-align: center;
+  margin-top: 20px;
+}
